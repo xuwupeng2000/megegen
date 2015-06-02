@@ -3,7 +3,10 @@
 ActiveRecord timestamped migrations generator - It knows how to invoke Rails's ActiveRecord generator
 So you can use Rails Migration Generator without include Rails in your project.
 
+---
 NOTE: *Mege.Gen* can only generates ActiveRecord timestamped migrations
+NOTE: Please use 0.2.1 and above
+---
 
 MegeGen provides two interfaces to Rails's Migration Generator
 - CLI

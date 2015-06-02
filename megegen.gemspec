@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jack Wu"]
   spec.email         = ["xuwupeng2000@gmail.com"]
 
-  spec.summary       = %q{Mege.Gen Migration file generator - It knows how to invoke Rails's generator }
-  spec.description   = %q{Migration file generator - It knows how to invoke Rails's generator }
+  spec.summary       = %q{ActiveRecord timestamped migrations generator - It knows how to invoke Rails's ActiveRecord generator So you can use Rails Migration Generator without include Rails in your project.}
+  spec.description   = %q{ActiveRecord timestamped migrations generator - It knows how to invoke Rails's ActiveRecord generator So you can use Rails Migration Generator without include Rails in your project.}
   spec.homepage      = "https://github.com/xuwupeng2000/megegen"
   spec.license       = "MIT"
 
