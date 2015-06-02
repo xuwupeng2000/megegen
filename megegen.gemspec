@@ -25,4 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rake", "~> 10.0"
   spec.add_dependency "rails"
   spec.add_dependency "thor"
+
+  spec.executables   = ["megegen"]
 end
