@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'megegen/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "migration-generator"
+  spec.name          = "megegen"
   spec.version       = Megegen::VERSION
   spec.authors       = ["Jack Wu"]
   spec.email         = ["xuwupeng2000@gmail.com"]
 
-  spec.summary       = %q{Migration file generator - It knows how to invoke Rails's generator }
+  spec.summary       = %q{Mege.Gen Migration file generator - It knows how to invoke Rails's generator }
   spec.description   = %q{Migration file generator - It knows how to invoke Rails's generator }
   spec.homepage      = "https://github.com/xuwupeng2000/migration-generator"
   spec.license       = "MIT"
