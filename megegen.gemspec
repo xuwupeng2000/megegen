@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Mege.Gen Migration file generator - It knows how to invoke Rails's generator }
   spec.description   = %q{Migration file generator - It knows how to invoke Rails's generator }
-  spec.homepage      = "https://github.com/xuwupeng2000/migration-generator"
+  spec.homepage      = "https://github.com/xuwupeng2000/megegen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
